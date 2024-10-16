@@ -1,0 +1,47 @@
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+.vscode/
+*.DS_Store
+.DS_Store
+#Nuget packages folder
+packages/
+/code/CommerceCore.Web/appsettings.Development.json
+/code/CommerceCore.Web/Properties/launchSettings.json
+/code/CommerceCore.Web/healthchecksdb
+/code/CommerceCore.Functions/Properties/serviceDependencies.local.json
+node_modules
+tests/result.xml
+__azurite_db_blob__.json
+__azurite_db_blob_extent__.json
+__azurite_db_queue__.json
+__azurite_db_queue_extent__.json
+tests/e2e/Results
+.idea
