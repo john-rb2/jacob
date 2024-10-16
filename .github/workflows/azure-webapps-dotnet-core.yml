@@ -15,7 +15,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '5.0.x'
+        dotnet-version: '6'
 
     - name: Build with dotnet
       run: dotnet build --configuration Release
@@ -23,6 +23,6 @@ jobs:
     - name: Publish to Azure WebApp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'YOUR_APP_NAME'
+        app-name: 'jacob'
         slot-name: 'production'
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISH_PROFILE }}
